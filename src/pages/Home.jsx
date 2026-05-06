@@ -83,21 +83,19 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right – architecture placeholder */}
+            {/* Right – system architecture diagram */}
             <div className="col-lg-6 fade-in-up delay-3">
-              <div className="hero-image-box" title="Replace with actual system architecture diagram">
-                <i className="fas fa-project-diagram" />
-                <div style={{ textAlign: 'center' }}>
-                  <strong style={{ color: 'var(--gold-light)' }}>System Architecture Diagram</strong>
-                  <br /><span style={{ fontSize: '0.78rem' }}>(to be added)</span>
-                </div>
-                <span style={{
-                  fontSize: '0.7rem', color: 'var(--gold-dark)',
-                  border: '1px dashed var(--gold-dark)',
-                  padding: '0.3rem 0.8rem', borderRadius: '50px',
-                }}>
-                  📌 Replace with actual image
-                </span>
+              <div style={{
+                borderRadius: 'var(--radius)',
+                overflow: 'hidden',
+                border: '1px solid var(--border)',
+                boxShadow: '0 8px 40px rgba(197,160,89,0.15)',
+              }}>
+                <img
+                  src="/Images/system.jpeg"
+                  alt="Edu-Predict System Architecture Diagram"
+                  style={{ width: '100%', height: 'auto', display: 'block' }}
+                />
               </div>
             </div>
           </div>
